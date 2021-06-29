@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.blog-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.blog-title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.blog-styling {
+  display: flex;
+}
+.blog-profile-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  align-self: center;
+  border-radius: 40px;
+}
+.blog-author {
+  font-size: 20px;
+  font-weight: 500;
+}
+.content-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.blog-content {
+  color: #2f4f4f;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .blog-content-container {
+    width: 80%;
+  }
+}

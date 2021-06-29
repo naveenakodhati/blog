@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-image {
+  width: 20%;
+  height: 200px;
+}
+.profile-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: #551e53;
+}
+.profile-description {
+  color: #8e8e8e;
+  font-weight: 600;
+}
+.home-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
